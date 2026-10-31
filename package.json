@@ -1,0 +1,13 @@
+{
+  "name": "nullvoida",
+  "version": "0.1.0",
+  "description": "A minimal, monochromatic FSE block theme stripped of excess.",
+  "scripts": {
+    "start": "npx @wordpress/env start",
+    "stop": "npx @wordpress/env stop",
+    "destroy": "npx @wordpress/env destroy",
+    "activate": "npx @wordpress/env run cli wp theme activate nullvoida",
+    "status": "npx @wordpress/env status"
+  },
+  "license": "GPL-2.0-or-later"
+}
